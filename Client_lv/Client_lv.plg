@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Client_lv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP176.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Client_lv.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\¬¿ˆŒ¿œ ¶\20150102\HW\Client_lv\Client_lvDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP176.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP177.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Client_lv.pdb" /debug /machine:I386 /out:"Debug/Client_lv.exe" /pdbtype:sept 
+".\Debug\Client_lv.obj"
+".\Debug\Client_lvDlg.obj"
+".\Debug\FindDlg.obj"
+".\Debug\InputDlg.obj"
+".\Debug\LoginDlg.obj"
+".\Debug\ModifyDlg.obj"
+".\Debug\PassDlg.obj"
+".\Debug\PriorDlg.obj"
+".\Debug\SockLx.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Client_lv.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP177.tmp"
+<h3>Output Window</h3>
+Compiling...
+Client_lvDlg.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP178.tmp" with contents
+[
+/nologo /o"Debug/Client_lv.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\Client_lv.sbr"
+".\Debug\Client_lvDlg.sbr"
+".\Debug\FindDlg.sbr"
+".\Debug\InputDlg.sbr"
+".\Debug\LoginDlg.sbr"
+".\Debug\ModifyDlg.sbr"
+".\Debug\PassDlg.sbr"
+".\Debug\PriorDlg.sbr"
+".\Debug\SockLx.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP178.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Client_lv.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
